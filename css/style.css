@@ -431,7 +431,9 @@ th {
 body { background-color: LightGray;}
 div {border: 1px solid chocolate;}
 
-.navbarbullets { list-style-type: none; display: inline; text-align: right;}
+.navbarbullets { list-style-type: none; 
+  display: inline;
+  text-align: right;}
 
 .navbarlist {background-color: #fff;
   position: fixed;
