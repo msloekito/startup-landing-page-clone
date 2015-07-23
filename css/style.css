@@ -431,4 +431,10 @@ th {
 body { background-color: LightGray;}
 div {border: 1px solid chocolate;}
 
-.navbarbullets { list-style-type: none; display: inline;}
+.navbarbullets { list-style-type: none; display: inline; text-align: right;}
+
+.navbarlist {background-color: #fff;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #DDD;
+  z-index: 9999;}
