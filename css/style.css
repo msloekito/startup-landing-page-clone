@@ -433,10 +433,19 @@ div {border: 1px solid chocolate;}
 
 .navbarbullets { list-style-type: none; 
   display: inline;
-  text-align: right;}
+margin: 0;
+padding: 2;
+font-family: 'Titillium Web', sans-serif;}
+
 
 .navbarlist {background-color: #fff;
   position: fixed;
   width: 100%;
   border-bottom: 1px solid #DDD;
-  z-index: 9999;}
+  z-index: 9999;
+padding: 1em;
+font-family: 'Titillium Web', sans-serif;}
+
+a { display: block;
+width: 60px;}
+li { float: right;}
