@@ -443,9 +443,13 @@ font-family: 'Titillium Web', sans-serif;}
   width: 100%;
   border-bottom: 1px solid #DDD;
   z-index: 9999;
-padding: 1em;
 font-family: 'Titillium Web', sans-serif;}
 
 a { display: block;
-width: 60px;}
+padding: 1em;
+text-align: center;
+;}
+a:hover, a:active {background-color: #7A991A}
 li { float: right;}
+
+.logo {padding: 0.5em;}
