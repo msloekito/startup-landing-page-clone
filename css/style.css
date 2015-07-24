@@ -443,13 +443,17 @@ font-family: 'Titillium Web', sans-serif;}
   width: 100%;
   border-bottom: 1px solid #DDD;
   z-index: 9999;
-font-family: 'Titillium Web', sans-serif;}
+}
 
 a { display: block;
 padding: 1em;
 text-align: center;
 ;}
-a:hover, a:active {background-color: #7A991A}
+a:hover, a:active {background-color: #FF6600}
 li { float: right;}
 
-.logo {padding: 0.5em;}
+.logo {padding: 0.5em; margin-left: -1rem; margin-top: 0.2rem}
+
+.main {color: white;
+  text-align: center; padding: 14em;
+background-image: url("http://i.imgur.com/UMrCq4q.jpg"); background-size: cover; background-position: fixed; background-repeat: no-repeat;}
