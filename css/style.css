@@ -448,12 +448,32 @@ font-family: 'Titillium Web', sans-serif;}
 a { display: block;
 padding: 1em;
 text-align: center;
-;}
+font-size: 1.20rem;}
 a:hover, a:active {background-color: #FF6600}
 li { float: right;}
 
 .logo {padding: 0.5em; margin-left: -1rem; margin-top: 0.2rem}
 
 .main {color: white;
-  text-align: center; padding: 14em;
-background-image: url("http://i.imgur.com/UMrCq4q.jpg"); background-size: cover; background-position: fixed; background-repeat: no-repeat;}
+  font-size: 1.3rem;
+  text-align: center; 
+  padding: 10em;
+  font-family: 'Oxygen', sans-serif;
+background-image: url("http://i.imgur.com/UMrCq4q.jpg");
+     background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    }
+
+.big-button {
+  text-shadow: none;
+  border-style:none;
+  border-radius:4px;
+  padding: 1rem 1.5rem;
+  line-height: 1.33;
+  cursor: crosshair;
+  background-color: #f15a29;
+  border-color: #f15a29;
+  color: white;
+}
