@@ -457,7 +457,8 @@ li { float: right;}
 .main {color: white;
   font-size: 1.3rem;
   text-align: center; 
-  padding: 10em;
+  padding: 12rem;
+  margin: auto;
   font-family: 'Oxygen', sans-serif;
 background-image: url("http://i.imgur.com/UMrCq4q.jpg");
      background-position: center right;
@@ -472,8 +473,19 @@ background-image: url("http://i.imgur.com/UMrCq4q.jpg");
   border-radius:4px;
   padding: 1rem 1.5rem;
   line-height: 1.33;
-  cursor: crosshair;
+  cursor: hand;
   background-color: #f15a29;
   border-color: #f15a29;
   color: white;
 }
+.cases .devices {
+  width: 33.3333333%;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid black;
+  height: 4em;
+  vertical-align: baseline;
+  padding: 5em;
+  margin:auto;
+}
+.cases > h2 {margin:auto;}
