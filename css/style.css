@@ -478,14 +478,15 @@ background-image: url("http://i.imgur.com/UMrCq4q.jpg");
   border-color: #f15a29;
   color: white;
 }
-.cases .devices {
+.cases .devices .caption {
   width: 33.3333333%;
   display: inline-block;
   box-sizing: border-box;
-  border: 1px solid black;
   height: 4em;
   vertical-align: baseline;
   padding: 5em;
   margin:auto;
+  list-style-type: none;
 }
-.cases > h2 {margin:auto;}
+
+.footerhead {text-align: center; margin-left:auto; margin-right: auto}
