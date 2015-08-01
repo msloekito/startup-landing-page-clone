@@ -480,10 +480,8 @@ background-image: url("http://i.imgur.com/UMrCq4q.jpg");
 }
 .cases .devices .caption {
   width: 33.3333333%;
-  display: inline-block;
+  display: inline;
   box-sizing: border-box;
-  height: 4em;
-  vertical-align: baseline;
   padding: 5em;
   margin:auto;
   list-style-type: none;
