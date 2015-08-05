@@ -450,7 +450,7 @@ padding: 1em;
 text-align: center;
 font-size: 1.20rem;}
 a:hover, a:active {background-color: #FF6600}
-li { float: right;}
+.navbarbullets > li { float: right;}
 
 .logo {padding: 0.5em; margin-left: -1rem; margin-top: 0.2rem}
 
@@ -478,13 +478,38 @@ background-image: url("http://i.imgur.com/UMrCq4q.jpg");
   border-color: #f15a29;
   color: white;
 }
+.big-button:hover{
+  text-shadow: none;
+  border-style:none;
+  border-radius:4px;
+  padding: 1rem 1.5rem;
+  line-height: 1.33;
+  cursor: hand;
+  background-color: #CC5200;
+  border-color: #CC5200;
+  color: white;
+}
 .cases .devices .caption {
   width: 33.3333333%;
   display: inline;
   box-sizing: border-box;
-  padding: 5em;
+  height: 4rem;
   margin:auto;
   list-style-type: none;
-}
 
+}
+.cases {
+  background-color: white
+}
+.devices > li {width: 33.3333333%;
+  display: inline;
+  box-sizing: border-box;
+  height: 4rem;
+  margin:auto;
+  list-style-type: none;
+float: right;
+text-align: center;
+background-color: white}
+
+footer {background-color: white}
 .footerhead {text-align: center; margin-left:auto; margin-right: auto}
