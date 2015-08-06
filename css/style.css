@@ -428,8 +428,8 @@ th {
 
 /*end of Normalize*/
 
-body { background-color: LightGray;}
-div {border: 1px solid chocolate;}
+body { background-color: white;}
+
 
 .navbarbullets { list-style-type: none; 
   display: inline;
@@ -494,28 +494,47 @@ background-image: url("http://i.imgur.com/UMrCq4q.jpg");
   display: inline;
   box-sizing: border-box;
   height: 4rem;
-  margin:auto;
-  list-style-type: none;
+  list-style-type: none;  
 
 }
-.cases {
+.cases .devices {
   background-color: white
 }
+
 .devices > li {width: 33.3333333%;
   display: inline;
   box-sizing: border-box;
   height: 4rem;
-  margin:auto;
   list-style-type: none;
-float: right;
+float: left;
 text-align: center;
-background-color: white}
+background-color: white;
+margin:0;}
 
-footerhead {background-color: white}
-.footerhead {text-align: center; margin-left:auto; margin-right: auto}
+.footerhead1 {background-color: white; 
+  width: 70%; 
+  margin-left: auto;
+  margin-right: auto;
+display: block;}
 
-.socialmedia {
-  margin:auto;
-  padding: 10rem;
-  text-align: center
+
+.icons > li {list-style-type: none;
+ display: inline-block;
+  border-radius: 80%;
+  width:25px;
+  height:25px;
+   border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;  
+    line-height: 10px;
 }
+
+hr {margin-top: 15rem; width: 70%; margin-right: 15%; margin-left: 15%}
+
+.joinus {margin-top: 1rem}
+.icons {margin-top: 4rem}
+.karmamobility {margin-top: 4rem}
+
+.joinus .icons .karmamobility { display: block;
+width: 60%;
+margin: auto;}
